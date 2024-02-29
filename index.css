@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
 
 .container{
     display: flex;
@@ -8,6 +9,7 @@
     margin-top: 100px;
     margin-left: 200px;
     margin-right: 200px;
+
 }
 #search-section{
     margin-top: 40px;
@@ -16,6 +18,31 @@
     width: 50%;
     padding: 15px;
 }
+
+body{min-height:200vh;}
+.custom-nav-bg {
+    transition:500ms ease;
+    background-color:#000000;
+    color: white !important;
+    z-index: 100!important;
+}
+
+.nav-bg-white {
+    background-color: #ffffff;
+    text-decoration: #000000 !important;
+    color: #000000!important;
+    z-index: 100;
+}
+.nav-bg-white navbar-nav nav-link{
+    color: #000000!important;
+}
+/* .colortext{
+    color: #ffffff;
+}
+.colortextchange{
+    color: #000000;
+} */
+
 footer  p{
     color: var(--footer-text-color);
     font-size: 1rem;
@@ -23,7 +50,7 @@ footer  p{
 }
 footer p:hover{
     cursor: pointer;
-    color: green;
+    color: #3A833A;
 }
 
 .bg-footer-color{
@@ -31,7 +58,8 @@ footer p:hover{
 }
 .dropdown-item:focus, .dropdown-item:hover {
     color: white;
-    background-color: green;
+    background-color: #3A833A ;
+    border-radius: 5px;
 }
 .carousel-indicators .active {
    opacity: 1;
@@ -39,6 +67,7 @@ footer p:hover{
 }
 .carousel-indicators{
     bottom: -35px;
+    z-index: 0;
 }
 .carousel-indicators [data-bs-target]:not(.active) {
     /* Your styles for inactive items go here */
@@ -49,24 +78,24 @@ footer p:hover{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    color: #26ae61;
-    background-color:#26ae61;
+    color: #3A833A;
+    background-color:#3A833A;
     border: 1.7px solid rgb(159, 159, 159) ;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.55);
     
 }
 .carousel-indicators [data-bs-target]:hover {
 
-    background-color: #26ae61;
+    background-color: #3A833A;
     border: 1px solid rgb(60, 60, 60);
     
 }
 .form-control::placeholder { 
     color: rgb(98, 97, 97);
 }
-nav{
+/* nav{
     transition: background-color 0.5s ease-in-out;
-}
+} */
 .btn{
     text-transform: none;
 }
@@ -80,14 +109,15 @@ nav{
     transition: color 0.3s ease-in-out,background-color 0.3s ease-in-out,border-color 0.3s ease-in-out,box-shadow 0.3s ease-in-out ;
 }
 .hover-btn:hover {
-        color: black;
+        color: white;
         box-shadow: 0 5px 11px 0 rgba(0,0,0,.15), 0 4px 15px 0 rgba(0,0,0,.15);
 }
 .custom-btn-hover:hover{
-    background-color: #7acf9f;
+    background-color: #3A833A;
 }   
 .capsule-input {
-    border-radius: 25px; 
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px;
     outline: none;
     transition: border-color 0.3s;
   }
@@ -99,3 +129,58 @@ nav{
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px
   }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: #eee; 
+    outline: #eee; 
+    color: white; 
+    cursor: pointer; 
+    padding-left: 8px;
+    border-radius: 5px;
+     
+  }
+
+.card{
+    border-radius: 0px;
+    --bs-card-border-color :#feeeee;
+}
+
+.card-scale:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.card-scale{
+    animation: scale ease 2s;
+    transition: all .3s linear;
+}
+
+#more{
+    cursor: pointer;
+}
+#more:hover{
+    color: #3A833A;
+}
+
+.custom-mt {
+    margin-top: 100px;
+}
+
+.footer-sub-head{
+    color: #ffffff;
+}
+.footer-sub-head:hover{
+    cursor: text;
+    color: #ffffff;
+}
+
+.footer-text{
+    color: darkgray; 
+    font-size: 15px;
+}
