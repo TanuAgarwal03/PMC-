@@ -16,19 +16,19 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="https://planmycareers.com/">
                   <img src="images/PMC-logo.png" width="50" height="50" alt="pmc logo">
-                  <span class="nav-item custom-logo-head text-success fs-6 ">PLAN MY CAREER</span>
+                  <span class="nav-item custom-logo-head text-success fs-6 fs-sm-4">PLAN MY CAREER</span>
                 </a>
                 <button class="navbar-toggler color-bg-color-green"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon color-bg-color-green" ></span>
+                <span class="navbar-toggler-icon color-bg-color-green" style="background-color: #fff" ></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse  mx-5 opacity-1" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse mx-5 opacity-1" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-lg-0 opacity-1">
-                  <li class="nav-item " >
+                  <li class="nav-item mx-2" >
                     <span  class="nav-link text-white" id="try">Home</span>
                   </li>
-                  <li class="nav-item dropdown" onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
+                  <li class="nav-item dropdown mx-2" onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
                     <a id="try" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                       aria-expanded="false">
                       Jobs
@@ -39,7 +39,7 @@
                       <li class="mx-2"><a class="dropdown-item" href="#">Internship</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item dropdown"onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
+                  <li class="nav-item dropdown mx-2"onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
                     <a id="try" class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
                       aria-expanded="false">
                       Career Tools
@@ -51,7 +51,7 @@
                       <li class="mx-2"><a class="dropdown-item" href="#">Jugad Techniques</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item dropdown"onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
+                  <li class="nav-item dropdown mx-2"onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
                     <a id="try" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                       aria-expanded="false">
                       Education
@@ -66,7 +66,7 @@
                       <li class="mx-2"><a class="dropdown-item" href="#">Preparations</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item dropdown" onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
+                  <li class="nav-item dropdown mx-2" onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
                     <a id="try" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                       aria-expanded="false">
                       Resume
@@ -77,7 +77,7 @@
                       <li class="mx-2"><a class="dropdown-item" href="#">Resume Guidence</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item dropdown" onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
+                  <li class="nav-item dropdown mx-2" onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
                     <a id="try" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                       aria-expanded="false">
                       Career
@@ -89,7 +89,7 @@
                       <li  class="mx-2"><a class="dropdown-item" href="#">Government Sector</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item dropdown"onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
+                  <li class="nav-item dropdown mx-2"onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
                     <a id="try" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                       aria-expanded="false">
                       Success Stories
@@ -103,7 +103,7 @@
                   <li class="nav-item  ">
                     <span id="try" class="nav-link text-white">Blog</span>
                   </li>
-                  <li class="nav-item dropdown "onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
+                  <li class="nav-item dropdown mx-2"onmouseover="mouseEntered(this);" onmouseleave="mouseRemove(this)">
                     <a id="try" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                       aria-expanded="false">
                       More
@@ -124,29 +124,41 @@
             </div>
         </nav>
         <br><br>
-        <div>
-            <div class="container custom-mt justify-content-center">
-                <div class="text">
-                    <p class="h1 fw-bold"> Shape a Career That is a Dreamcatcher</p>
-                    
-                    <p class="text-muted" >With your zeal and our knowledge, we will enable you to shape a career that will make your dreams come true.</p>
-                        <div id="search-section" class ="d-flex w-120">
-                            <input type="text" placeholder="Select your dream career" class="form-control border-success border-1 rounded-5 w-75 p-2">
-                            <button id="search-btn "class="rounded-5 btn btn-success mx-3 hover-btn "><i class="lni lni-search"></i></button>
-                            <!-- LineIcons icon library -->
-                        </div>
-                </div>
-                <div class="image mx-5">
-                    <img src="images/intro.png" height="auto" width="500px">
-                </div>
-            </div>
+<!--     
+        <div class="container d-lg-flex col-xl-10 mx-auto mt-3 mb-5  align-items-center justify-content-center">
+          <div class="container mx-auto d-flex flex-column align-items-center">
+            <p class="h1 fs-50 fw-bold w-75">Shape a Career That is a Dreamcatcher</p>
+            <small class=" text-muted w-75">With your zeal and our knowledge, we will enable you to shape a career that will make your dreams come true.</small>
+            <div id="search-section" class ="d-flex w-75">
+              <input type="text" placeholder="Select your dream career" class="form-control border-success border-1 rounded-5 w-75 p-2">
+              <button id="search-btn "class="rounded-5 btn btn-success mx-3 hover-btn "><i class="lni lni-search"></i></button>
+          </div>
+          </div>
+        <div class="container m-auto mt-5 d-flex align-items-center justify-content-center">
+          <img src="images/intro.png" height="auto" width="500px">
         </div>
-        <div class="container-fluid my-5 text-center ">
+      </div> -->
+
+      <div class="container d-lg-flex col-xl-10 m-auto mt-3 mb-5  align-items-center justify-content-center">
+        <div class="container mx-auto d-flex flex-column align-items-center">
+          <p class="h1 fs-50 fw-bold w-75">Shape a Career That is a Dreamcatcher</p>
+          <small class=" text-muted w-75">With your zeal and our knowledge, we will enable you to shape a career that will make your dreams come true..</small>
+          <div id="search-section" class ="d-flex w-75">
+            <input type="text" placeholder="Select your dream career" class="form-control border-success border-1 rounded-5 w-75 p-2">
+            <button id="search-btn "class="rounded-5 btn btn-success mx-3 hover-btn "><i class="lni lni-search"></i></button>
+        </div>
+        </div>
+        <div class="container m-auto mt-5 d-flex align-items-center justify-content-center">
+          <img src="images/intro.png" height="400px" width="540px">
+        </div>
+    </div>
+
+        <div class="container-fluid mt-3 p-5 text-center ">
           <h2 class ="fw-bold">Browse Categories</h2>
           <small class = "text-body-secondary">Choose Options from our Services</small>
         </div>
 
-        <div class="container col-xl-10 col-sm-11 mt-5 custom-mt">
+        <div class="container col-xl-10 col-sm-11 mt-5 custom-mt mx-auto">
           <div class="row g row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-1 p-2">
 
             <div class="col card card-scale">    
@@ -212,23 +224,39 @@
           <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
         </svg></span></div>      
 
-        <div class="d-lg-flex w-75 container mt-5 m-auto align-items-center justify-content-center mb-5">
-          <div>
-            <p class="h1 fs-50 text-center">That Endless World of Career Opportunities</p>
-            <p class=" text-muted text-center">With a vast roaster of career possibilities, choose the one which suits your talent pool.</p>
-                <div id="option-button" class ="d-flex py-3 justify-content-center">
-                  <button id="career-option-btn "class="rounded-pill btn btn-success mx-auto mt-5 hover-btn"><span class= "mx-2">CAREER OPTIONS</span></button>
-                    
-                </div>
-          </div>
-            <div class="image mx-5">
-              <img src="images/search.png" height="350px" width="430px">
+
+        <!-- <div class="container d-lg-flex col-xl-10 mx-auto mt-3 mb-5  align-items-center justify-content-center">
+          <div class="container mx-auto d-flex flex-column align-items-center">
+            <p class="h1 fs-50 text-center align-items-center w-75">That Endless World of Career Opportunities</p>
+            <small class=" text-muted text-center ">With a vast roaster of career possibilities, choose the one which suits your talent pool.</small>
+            <div id="school-search-button" class ="d-flex pt-3 justify-content-center">
+              <button id="school-search-btn "class="rounded-pill btn btn-success mx-auto mt-5 hover-btn"><span class= "mx-2"> SEARCH CAREER</span></button>
             </div>
+          </div>
+        <div class="container m-auto mt-5 d-flex align-items-center justify-content-center">
+          <img src="images/search.png" height="350px" width="440px">
         </div>
+      </div> -->
+
+      <div class="container d-lg-flex col-xl-10 m-auto mt-3 mb-5  align-items-center justify-content-center">
+        
+        <div class="container mx-auto d-flex flex-column align-items-center">
+          <p class="h1 fs-50 text-center w-75">That Endless World of Career Opportunities</p>
+          <small class=" text-muted text-center ">With a vast roaster of career possibilities, choose the one which suits your talent pool.</small>
+          <div id="school-search-button" class ="d-flex pt-3 justify-content-center">
+            <button id="school-search-btn "class="rounded-pill btn btn-success mx-auto mt-5 hover-btn"><span class= "mx-2"> SEARCH CAREER</span></button>
+          </div>
+        </div>
+        <div class="container m-auto mt-5 d-flex align-items-center justify-content-center">
+          <img src="images/career.png" height="400px" width="540px">
+        </div>
+    </div>
+
         <!-- horizontal line  -->
         <hr class="mt-5"> 
 
-        <div class="container mt-5 justify-content-center mx-auto ">
+        <div class="container justify-content-center mx-auto ">             
+
           <div>
             <h2 class="fw-bold text-center"> Career Road Map 
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
@@ -239,19 +267,34 @@
           </div>
         </div>
 
-        <div class="d-lg-flex w-75 container m-auto align-items-center justify-content-center my-5">
-          <div>
-            <p class="h1 fs-50 text-center">The Path to Indomitable Success in Your Career</p>
-            <small class=" text-muted text-center">Venturing into unknown waters without proper knowledge will make you a meal for crocodiles in the water. Search through our extensive base of knowledge and find the information which will help you to be successful.</small>
-                <div id="career-search-button" class ="d-flex py-3 justify-content-center">
-                  <button id="career-search-btn "class="rounded-pill btn btn-success mx-auto mt-5 hover-btn"><span class= "mx-2"> SEARCH CAREER</span></button>
-                    
-                </div>
+
+        <!-- <div class="container d-lg-flex col-xl-10 mx-auto mt-3 mb-5  align-items-center justify-content-center">
+          <div class="container mx-auto d-flex flex-column align-items-center">
+            <p class="h1 fs-50 text-center w-75">The Path to Indomitable Success in Your Career</p>
+            <small class=" text-muted text-center ">Venturing into unknown waters without proper knowledge will make you a meal for crocodiles in the water. Search through our extensive base of knowledge and find the information which will help you to be successful.</small>
+            <div id="school-search-button" class ="d-flex pt-3 justify-content-center">
+              <button id="school-search-btn "class="rounded-pill btn btn-success mx-auto mt-5 hover-btn"><span class= "mx-2"> SEARCH CAREER</span></button>
+            </div>
           </div>
-          <div class="image mx-3">
-              <img src="images/career.png" height="400px" width="540px">
+        <div class="container m-auto mt-5 d-flex align-items-center justify-content-center">
+          <img src="images/career.png" height="400px" width="540px">
+        </div>
+      </div> -->
+
+      <div class="container d-lg-flex col-xl-10 m-auto mt-3 mb-5  align-items-center justify-content-center">
+        
+        <div class="container mx-auto d-flex flex-column align-items-center">
+          <p class="h1 fs-50 text-center w-75">The Path to Indomitable Success in Your Career</p>
+          <small class=" text-muted  ">Venturing into unknown waters without proper knowledge will make you a meal for crocodiles in the water. Search through our extensive base of knowledge and find the information which will help you to be successful. </small>
+          <div id="school-search-button" class ="d-flex pt-3 justify-content-center">
+            <button id="school-search-btn "class="rounded-pill btn btn-success mx-auto mt-5 hover-btn"><span class= "mx-2"> SEARCH CAREER</span></button>
           </div>
         </div>
+        <div class="container m-auto mt-5 d-flex align-items-center justify-content-center">
+          <img src="images/career.png" height="400px" width="540px">
+        </div>
+    </div>
+
 
         <hr class="mt-5 text-muted">
 
@@ -262,20 +305,22 @@
           </div>
         </div>
 
-        <div class="d-lg-flex w-75 container m-auto align-items-center justify-content-center mt-5">
-          <div class="image mx-5">
-            <img src="images/job.png" height="350px" width="400px">
-          </div>
-          <div>
-            <p class="h1 fs-50 text-center">Job Satisfaction</p>
-            <small class=" text-muted text-center justify-content-center">Are you settled cozily with your job, or are you hungry for more? If you are looking for real growth, we can help you.</small>
-                <div id="job-button" class ="d-flex py-3 justify-content-center">
-                  <button id="job-option-btn "class="rounded-5 btn btn-success mx-auto mt-5 hover-btn"><span class= "mx-2"> SEARCH JOBS</span></button>
-                    
-                </div>
+      </div>
+      <div class="container d-lg-flex col-xl-10 m-auto mt-3 mb-5  align-items-center justify-content-center">
+        <div class="container m-auto mt-5 d-flex align-items-center justify-content-center">
+          <img src="images/job.png" height="350px" width="450px">
+        </div>
+        <div class="container mx-auto d-flex flex-column align-items-center">
+          <p class="h1 fs-50 text-center w-75">Job Satisfaction</p>
+          <small class=" text-muted ">Are you settled cozily with your job, or are you hungry for more? If you are looking for real growth, we can help you </small>
+          <div id="school-search-button" class ="d-flex pt-3 justify-content-center">
+            <button id="school-search-btn "class="rounded-pill btn btn-success mx-auto mt-5 hover-btn"><span class= "mx-2"> SEARCH JOBS</span></button>
           </div>
         </div>
-        <hr class="mt-15">
+    </div>
+
+
+        <hr class="mt-5">
 
         <div class="container mt-5 justify-content-center mx-auto ">
           <div>
@@ -284,30 +329,29 @@
           </div>
         </div>
 
-        <div class="d-lg-flex w-75 container m-auto align-items-center justify-content-center my-5">
-          <div>
-            <p class="h1 fs-50 text-center">Search Best Schools and Colleges at Your Place</p>
-            <small class=" text-muted text-center">We provide the List of best among Schools and Colleges At your desired location</small>
-                <div id="school-search-button" class ="d-flex py-3 justify-content-center">
-                  <button id="school-search-btn "class="rounded-pill btn btn-success mx-auto mt-5 hover-btn"><span class= "mx-2"> SEARCH SCHOOLS</span></button>
-                    
-                </div>
+        <div class="container d-lg-flex col-xl-10 m-auto mt-3 mb-5  align-items-center justify-content-center">
+          <div class="container mx-auto d-flex flex-column align-items-center">
+            <p class="h1 fs-50 text-center w-75">Search Best Schools and Colleges at Your Place</p>
+            <small class=" text-muted text-center ">We provide the List of best among Schools and Colleges At your desired location </small>
+            <div id="school-search-button" class ="d-flex pt-3 justify-content-center">
+              <button id="school-search-btn "class="rounded-pill btn btn-success mx-auto mt-5 hover-btn"><span class= "mx-2"> SEARCH SCHOOLS</span></button>
+            </div>
           </div>
-          <div class="image mx-3">
-              <img src="images/school.png" height="400px" width="540px">
-          </div>
+        <div class="container m-auto mt-5 d-flex align-items-center justify-content-center">
+          <img src="images/school.png" height="400px" width="540px">
         </div>
+      </div>
 
         <hr class="mt-5">
 
-        <div class="container mt-8 justify-content-center mx-auto ">
+        <div class="container mt-5 justify-content-center mx-auto ">
           <div>
             <h3 class="fw-bold text-center"> Let Your Work Define You </h3>
             <small class="text-muted">With our tools, sharpen your skills to a scalpel-like precision and be an artist at your work. A man’s worth is the man’s skills.</small>
           </div>
         </div>
 
-        <div class="container d-flex justify-content-center align-items-center mt-5 mb-5">
+        <div class="container d-flex justify-content-center align-items-center mt-5 mb-5 mx-auto">
           <div class="row row-cols-auto d-flex justify-content-center ">
             <div class="col card align-items-center p-2 border-0">
               <svg xmlns="http://www.w3.org/2000/svg"  width="60" height="60" fill="#3A833A"
@@ -428,20 +472,20 @@
         </div>
 
   
-          <div class="d-lg-flex w-75 container m-auto align-items-center justify-content-center my-5">
-            <div>
+          <div class="container d-lg-flex col-xl-10 m-auto custom-bg-blue mt-3 mb-5 align-items-center justify-content-center">
+            <div class="container d-flex flex-column align-items-center mx-auto">
               <p class="h1 fs-50 ">Download Our PMC App</p>
-              <small class=" text-muted text-center mt-5">Enjoy the PMC app in your hands by installing it your mobile. Never miss any update regarding career </small>
+              <small class=" text-muted text-center">Enjoy the PMC app in your hands by installing it your mobile. Never miss any update regarding career </small>
 
-              <div  class="row row-cols-auto gap-3 align-items-center align-self-center align-content-center mx-auto justify-content-center button-group mt-5">
+              <div class="row row-cols-auto gap-3 align-items-center align-self-center align-content-center mx-auto justify-content-center button-group mt-5">
                 <a  href="#" class="btn btn-border btn-outline-success  mx-3 rounded-5 d-flex justify-content-between align-items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"class="custom-svg-green-colo bi bi-apple" viewBox="0 0 16 16">
                     <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
                     <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
                   </svg> 
                 <div class="d-flex flex-column mx-3">
-                  <span class="custom-rubik-font fw-bolder">Download</span>
-                  <span class="custom-rubik-font" >From Apple store</span>
+                  <span class=" fw-bolder">Download</span>
+                  <span  >From Apple store</span>
                 </div>
                 </a>
               <div class="row row-cols-auto gap-3 align-items-center align-self-center align-content-center mx-auto justify-content-center button-group">
@@ -450,80 +494,87 @@
                     <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
                   </svg>
                 <div class="d-flex flex-column mx-3">
-                  <span class="text-white custom-rubik-font fw-bolder">Download</span>
-                  <span style="text-transform: none;" class="text-white text-decoration-none custom-rubik-font">From Play store</span>
+                  <span class="text-white  fw-bolder">Download</span>
+                  <span style="text-transform: none;" class="text-white text-decoration-none ">From Play store</span>
                 </div>
                 </a>
               </div>          
             </div>
             
           </div>
-          <div class="image mx-3">
+          <div class="container m-auto mt-5 d-flex align-items-center justify-content-center">
             <img src="images/app.png" height="400px" width="540px">
           </div>
         </div>
 
         <footer class="bg-footer-color text-center text-lg-start text-muted mt-5">
-          
-            <div class="container text-center text-white text-md-start mt-5">
+          <div class="container text-white text-md-start mx-auto mt-5">
               <div class="row mt-3">
-                <div class="col-md-2 col-lg-4 col-xl-3 mx-auto mb-4 mt-2 footer-logo">
-                  <img src="images/PMC-logo.png" height="50px" width="auto">
-                  <p class="mt-3 fs-6 footer-text">Plan My Career is a overall tool for your problems regaring your Career. We provide the best career options that suits your standard.</p>
-                </div>
-                
-                <div class="col-md-3 col-sm-6 mb-4 footer-links footer-text">
-                  <p class="fs-3 footer-sub-head ">Quick Links</p>
-                  <p class="hover">About us</p>
-                  <p class="hover">Support</p>
-                  <p class="hover">License</p>
-                  <p class="hover">Contact</p>
-                </div>
-                <div class="col-md-3 col-sm-6 pt-5 footer-links footer-text">
-                  <p >Terms & Conditions</p>
-                  <p >Privacy</p>
-                  <p >Referral Terms</p>
-                  <p >Product License</p>
-                </div>
-
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"> 
-                  <p class="fs-4 footer-sub-head">Subscribe Now</p>
-                  <small class="footer-text">Subscribe plan my career for all new updates</p>
-                  <div class ="input-group">
-                    <input class= "form-control bg-footer-color text-muted capsule-input"  placeholder="Enter Email.." type="text" aria-label="Enter Email.."
-                    aria-describedby="basic-addon1">
-                    <button  class="input-group-text bg-success" id="basic-addon1">
-                      <svg xmlns="http://www.w3.org/2000/svg"  width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
-                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
-                      </svg>
-                    </button>
+                  <!-- Logo Section -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-2 footer-logo">
+                      <img src="images/PMC-logo.png" height="50px" width="auto">
+                      <p class="mt-3 fs-6 footer-text">Plan My Career is an overall tool for your problems regarding your Career. We provide the best career options that suit your standard.</p>
                   </div>
-                                    
-                  <div class="d-flex justify-content-evenly pt-4 ">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="ml-0" style ="color:#3b5998;margin:auto" class="bi bi-facebook" viewBox="0 0 16 16">
-                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" style ="color: skyblue;margin:auto"  class="bi bi-twitter" viewBox="0 0 16 16">
-                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" style ="color: blue;margin:auto" class="bi bi-linkedin" viewBox="0 0 16 16">
-                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" style ="color:#dd4b39;margin:auto"  class="bi bi-google" viewBox="0 0 16 16">
-                      <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
-                    </svg>
+                  <!-- Quick Links & Terms Section -->
+                  <div class="col-lg-6 col-md-12 mb-4">
+                      <div class="row">
+                          <div class="col-md-6 col-sm-12 mb-4 footer-links footer-text">
+                              <p class="fs-3 footer-sub-head">Quick Links</p>
+                              <p class="hover w-50">About us</p>
+                              <p class="hover w-50">Support</p>
+                              <p class="hover w-50">License</p>
+                              <p class="hover w-50">Contact</p>
+                          </div>
+                          <div class="col-md-6 col-sm-12 mb-4 pt-md-0 pt-5 footer-links footer-text">
+                              <p class="fs-3 footer-sub-head pt-5"></p>
+                              <p class="hover w-50">Terms & Conditions</p>
+                              <p class="hover w-50">Privacy</p>
+                              <p class="hover w-50">Referral Terms</p>
+                              <p class="hover w-50">Product License</p>
+                          </div>
+                      </div>
                   </div>
-                  
-                </div>
+                  <!-- Subscribe Section -->
+                  <div class="col-lg-3 col-md-6 col-sm-12 mb-md-0 mb-4"> 
+                      <p class="fs-4 footer-sub-head">Subscribe Now</p>
+                      <small class="footer-text">Subscribe to Plan My Career for all new updates</small>
+                      <div class="input-group mt-3">
+                          <input class="form-control bg-footer-color mx-auto text-muted capsule-input" placeholder="Enter Email.." type="text" aria-label="Enter Email.." aria-describedby="basic-addon1">
+                          <button class="input-group-text bg-success" id="basic-addon1" >
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                              </svg>
+                          </button>
+                      </div>
+                      <!-- Social Media Icons -->
+                      <div class="d-flex justify-content-evenly pt-4">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" style="color:#3b5998;margin:auto" class="bi bi-facebook" viewBox="0 0 16 16">
+                              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" style="color: skyblue;margin:auto" class="bi bi-twitter" viewBox="0 0 16 16">
+                              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" style="color: blue;margin:auto" class="bi bi-linkedin" viewBox="0 0 16 16">
+                              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" style="color:#dd4b39;margin:auto" class="bi bi-google" viewBox="0 0 16 16">
+                              <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z" />
+                          </svg>
+                      </div>
+                  </div>
               </div>
-            </div>
-          
-          <div class="container-fluid p-4 bg-success text-white  text-center">
-            <p> Copyright reserved to Plan My Careers</p> 
           </div>
-        </footer>
+          <!-- Copyright Section -->
+          <div class="container-fluid mt-4 p-2 bg-success text-white text-center">
+              <p>Copyright reserved to Plan My Careers</p> 
+          </div>
+      </footer>
+      
 
-        <button onclick="topFunction()" id="myBtn" class="rounded-5 btn btn-success align-items-center"><i class="bi bi-arrow-up"></i></button>
+      <button onclick="topFunction()" id="myBtn" class="rounded-5 btn btn-success align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+        </svg>
+      </button>
         
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
